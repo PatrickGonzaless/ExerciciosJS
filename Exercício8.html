@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 8</title>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Este é o exercício 8.")
+
+		var soma = 0;
+		var media = 0;
+
+		var numero1 = parseFloat(prompt("Digite o primeiro valor:"))
+		if (numero1 > 0 && numero1 < 10) {
+			soma = soma + numero1;
+		}
+		var numero2 = parseFloat(prompt("Digite o primeiro valor:"))
+		if (numero2 > 0 && numero2 < 10) {
+			soma = soma + numero2;
+		}
+		var numero3 = parseFloat(prompt("Digite o primeiro valor:"))
+		if (numero3 > 0 && numero3 < 10) {
+			soma = soma + numero3;
+		}
+		var numero4 = parseFloat(prompt("Digite o primeiro valor:"))
+		if (numero4 > 0 && numero4 < 10) {
+			soma = soma + numero4;
+		}
+
+		media = soma/4
+
+		if (media > 5) {
+			document.write("Você passou no teste. Sua média foi: " +media)
+		}else{
+			document.write("Tente novamente. Sua média foi: " +media )
+		}
+	</script>
+
+</body>
+</html>

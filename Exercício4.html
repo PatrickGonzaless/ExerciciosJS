@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercício 4</title>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Este é o Exercício 4")
+
+		var valor1 =parseFloat(prompt("Digite o primeiro valor: "))
+		var valor2 =parseFloat(prompt("Digite o segundo valor: "))
+
+		let PrimeiroMaior = valor1
+		let SegundoMenor = valor1
+		let igual = valor1
+
+		
+		if(valor1 > PrimeiroMaior){
+			PrimeiroMaior = valor1
+			document.write("O primeiro número digitado, é o maior.")
+
+		}else if(valor1 < SegundoMenor){
+			SegundoMenor = valor1
+		}
+
+		if(valor2 > PrimeiroMaior){
+			PrimeiroMaior = valor2
+			document.write("O segundo número digitado, é o maior.")
+
+			
+		}else if(valor2 < SegundoMenor){
+			SegundoMenor = valor2
+		}
+
+		if(valor1 == valor2){
+			igual = valor1
+			document.write("Os números digitados, são iguais.")
+		}
+
+		
+		document.write("<br>")
+		
+	</script>
+
+</body>
+</html>
